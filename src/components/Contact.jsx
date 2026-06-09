@@ -6,15 +6,15 @@ const contacts = [
   {
     icon: <Mail size={20} className="text-indigo-500" />,
     label: 'Email',
-    value: 'keshavagrawal@email.com',
-    href: 'mailto:keshavagrawal@email.com',
+    value: 'agrawalkeshavak@gmail.com',
+    href: 'mailto:agrawalkeshavak@gmail.com',
     bg: 'bg-indigo-50',
   },
   {
     icon: <Phone size={20} className="text-emerald-500" />,
     label: 'Phone',
-    value: '+91 XXXXX XXXXX',
-    href: 'tel:+91XXXXXXXXXX',
+    value: '+91 9359284994',
+    href: 'tel:+919359284994',
     bg: 'bg-emerald-50',
   },
   {

@@ -31,9 +31,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 md:px-10 flex items-center justify-between h-16">
-        <a href="#hero" className="text-[15px] font-semibold tracking-tight text-neutral-900">
-          Keshav<span className="text-indigo-500">.</span>
-        </a>
+        <span></span>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1">
