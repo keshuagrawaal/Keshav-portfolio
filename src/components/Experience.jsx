@@ -10,6 +10,8 @@ const experiences = [
     description:
       'Successfully completed a 45-day Web Development Internship Program. Worked on responsive web applications and gained practical experience in frontend and backend development.',
     skills: ['HTML', 'CSS', 'JavaScript', 'Web Development'],
+      certificate: '/certificates/A2Z_itHUb(1).jpg',
+
   },
   {
     role: 'PHP Project Trainee Intern',
@@ -18,6 +20,7 @@ const experiences = [
     description:
       'Completed internship as a Project Trainee on PHP platform. Successfully developed and delivered a live project within the internship timeline while working with databases and web technologies.',
     skills: ['PHP', 'MySQL', 'Web Development', 'Project Development'],
+      certificate: '/certificates/RB Tech Certificate (1).pdf',
   },
 ]
 export default function Experience() {
@@ -47,6 +50,14 @@ export default function Experience() {
                 </div>
                 <p className="text-[14px] font-semibold text-indigo-500 mb-2">{exp.company}</p>
                 <p className="text-[14px] text-neutral-500 leading-relaxed mb-3">{exp.description}</p>
+                <a
+  href={exp.certificate}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-3 text-sm font-semibold text-indigo-600 hover:text-indigo-800"
+>
+  View Certificate →
+</a>
                 <div className="flex flex-wrap gap-1.5">
                   {exp.skills.map((s) => (
                     <span
