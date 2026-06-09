@@ -7,11 +7,13 @@ const certifications = [
     title: 'Java Programming Fundamentals',
     issuer: 'Infosys Springboard',
     type: 'Certification',
+    certificate: '/certificates/Infosys_java_Certificate.pdf',
   },
   {
     title: 'Java Full Stack Development',
     issuer: 'The Kiran Academy, Pune',
     type: '6 Months Program',
+    certificate: '/certificates/Kiran_Academhy_Certificate.pdf',
   },
 ]
 
@@ -41,6 +43,14 @@ export default function Certifications() {
                 </span>
                 <h3 className="text-[15px] font-bold text-neutral-900 mb-0.5">{cert.title}</h3>
                 <p className="text-[13px] text-neutral-500">{cert.issuer}</p>
+                <a
+  href={cert.certificate}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-3 text-sm font-semibold text-indigo-600 hover:text-indigo-800"
+>
+  View Certificate →
+</a>
               </div>
             </div>
           </FadeIn>
