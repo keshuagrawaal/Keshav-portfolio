@@ -4,23 +4,22 @@ import { Briefcase } from 'lucide-react'
 
 const experiences = [
   {
-    role: 'Technical Trainee',
+    role: 'Web Development Intern',
     company: 'A2Z IT Hub',
     location: 'Ahilyanagar',
     description:
-      'Gained hands-on experience in Java development, working on backend modules and understanding enterprise-grade application architecture.',
-    skills: ['Java', 'Backend Development', 'Problem Solving'],
+      'Successfully completed a 45-day Web Development Internship Program. Worked on responsive web applications and gained practical experience in frontend and backend development.',
+    skills: ['HTML', 'CSS', 'JavaScript', 'Web Development'],
   },
   {
-    role: 'Technical Trainee',
-    company: 'RB Tech & Training',
+    role: 'PHP Project Trainee Intern',
+    company: 'RB Tech Services',
     location: 'Ahilyanagar',
     description:
-      'Worked on practical training in full stack development with exposure to web technologies and database management.',
-    skills: ['Full Stack', 'Web Technologies', 'MySQL'],
+      'Completed internship as a Project Trainee on PHP platform. Successfully developed and delivered a live project within the internship timeline while working with databases and web technologies.',
+    skills: ['PHP', 'MySQL', 'Web Development', 'Project Development'],
   },
 ]
-
 export default function Experience() {
   return (
     <section
@@ -29,9 +28,9 @@ export default function Experience() {
     >
       <FadeIn>
         <SectionHeader
-          eyebrow="Experience"
-          title="Where I've trained."
-        />
+  eyebrow="Internships"
+  title="Internships & Training."
+/>
       </FadeIn>
 
       <div className="flex flex-col gap-5 max-w-3xl">
